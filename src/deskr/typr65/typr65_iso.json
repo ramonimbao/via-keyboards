@@ -4,6 +4,10 @@
 	"productId": "0x0002",
 	"lighting": "qmk_rgblight",
 	"matrix": { "rows": 5, "cols": 15 },
+  "customKeycodes": [
+    {"name": "Backlight Toggle", "title": "Toggles the backlighting RGB LEDs", "shortName": "Back Toggle"},
+    {"name": "Sidelight Toggle", "title": "Toggles the sidelighting RGB LEDs", "shortName": "Side Toggle"}
+  ],
 	"layouts": {
 		"keymap":
 			[
